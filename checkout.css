@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,footer{
+	text-align: center;
+}
+
+.nav{
+	background-image: linear-gradient(to right, blue, lightblue);
+	color: white;
+}
+
+.container{
+	display: flex;
+	margin: 0 50px;
+}
+
+
+.nav a{
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+    color: white;
+
+}
+
+.atag{
+	margin-left: auto;
+}
+.nav p{
+	padding: 15px;
+}
+
+.middle{
+	margin: 30px auto;
+	background-color: white;
+	width: 800px;
+	border-radius: 10px;
+	padding: 30px;
+
+}
+
+.all{
+	background-color: #F8F8F8;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.whole{
+	padding-top: 150px;
+}
+
+.box p span{
+	color: blue;
+}
+
+.input input{
+	background-color: #f4f4f6;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    border: none;
+    margin: 10px 0 20px;
+    padding: 10px;
+    outline: none;
+}
+
+
+.payment button{
+	/* background-color: darkorange; */
+	outline: none;
+	color: white;
+	border-radius: 20px;
+	border: 0;
+	width: 130px;
+	height: 40px;
+	background-image: linear-gradient(orange,darkorange);
+}
+
+hr{
+	 margin: 40px 0;
+}
+.link a{
+	color: gray;
+	text-decoration: none;
+
+}
+
+.link{
+	margin: 40px 0;
+}
+
+.box{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 40px 0 0;
+}
+
+.payment,.box{
+	justify-content: space-between;
+}
+
+/* .head,.detail{
+	flex-basis: 50%;
+} */
+
+/* .head2{
+	flex-basis: 50%;
+	text-align: right;
+} */
+
+.payment,.detail{
+	display: flex;
+	margin-top: 10px;
+	/* flex-wrap: wrap; */
+}
+
+.payment small{
+	width: 300px;
+	color: gray;
+}
+
+.payment img{
+	width: 250px;
+    height: 90px;
+}
+
+.payment small, button{
+	margin-top: 23px;
+
+}
+
+.tellno button{
+	background-image: linear-gradient(to right,blue,lightblue);
+    margin: 0 0 15px;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 320px;
+    border-radius: 90px;
+    outline: none;
+
+}
+
+.tellno button span{
+	background-color: white;
+    color: blue;
+    border-radius: 30px;
+    /* height: 20px; */
+    /* width: 30px; */
+    padding: 3px;
+    margin-left: 20px;
+}
+
+.copy{
+	color: gray;
+	margin-bottom: 20px;
+}
+
+
+
